@@ -100,7 +100,7 @@ fluidPage(
           title = "Table",
           br(),
           br(),
-          DTOutput("fit_table_out")
+          DTOutput("fit_table_out") %>% shinycssloaders::withSpinner()
         ),
         tabPanel(
           title = "Analysis Detail",

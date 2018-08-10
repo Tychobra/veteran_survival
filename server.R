@@ -88,7 +88,6 @@ function(input, output, session) {
       options = list(
         dom = "Bfltip",
         pageLength = 12,
-        scrollX = TRUE,
         buttons = list(
           list(
             extend = "excel",
