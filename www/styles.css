@@ -1,0 +1,12 @@
+.white_background {
+  background-color: #FFF;
+}
+
+/* remove caret (dropdown indictor) from menuItem icon */
+.dropdown-toggle > .caret {
+  display: none;
+}
+
+.full_width {
+  width: 100%;
+}
