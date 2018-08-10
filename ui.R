@@ -109,12 +109,17 @@ fluidPage(
           column(1),
           column(
             10,
+            tags$a(
+              href="https://github.com/Tychobra/veteran_survival",
+              h3("Link to GitHub Repo")
+            ),
+            br(),
             h3(
               style = "line-height: 1.5;",
               paste0(
                 "This is a simple survival analysis using of the 'verteran' data set available with the survival package.  ",
                 "Several of the predictor varibales in verteran are discretized before being used in the model fit.  You ",
-                "can see how the discretization is perfomed in 'Global.R' ().  Some exploratory data analysis is available ",
+                "can see how the discretization is perfomed in 'Global.R'.  Some exploratory data analysis is available ",
                 "in 'data_prep/data-analysis.R'.  Better detail and more info would be provided for any actual analysis.  I ",
                 "often include .Rmd reports in Shiny apps which can be downloaded to html or pdf..."
               )
